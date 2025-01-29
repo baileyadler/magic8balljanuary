@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(180deg, black, white);
+  }
+  h1 {
+    color: white;
+    margin: 50px;
+    font-family: "gimlet-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+  #response-text {
+    color: white;
+    font-family: "turnip", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }
+  .gimlet-display {
+    font-family: "gimlet-display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #response-image {
+    height: 300px;
+    margin: 30px;
+    border-radius:36px;
+  }
+  .nav-item {
+    padding: 20px;
+    color: black;
+  }
+  footer {
+    margin-top: 100px;
+    font-family: "gimlet-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 2px solid black;
+    background-color:white;
+  }
+  button{
+    box-shadow: 0px 15px 40px red;
+  
+  }
+  #greeting{
+    opacity:0.6;
+    color:rgb(252, 25, 25);
+    transition:opacity 1s ease-in-out, 1s ease-in-out;
+    font-size:40px;
+  }
+  #greeting:hover{
+    opacity: 1;
+    color:pink;
+  }
+  
