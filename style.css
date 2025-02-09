@@ -16,7 +16,7 @@
   font-style: normal;
   font-size:40px;
   }
-  body {
+  .body {
     background: linear-gradient(45deg, rgba(250, 179, 250, 0.8), rgba(180, 250, 250, 0.8));
     background-size: 400% 400%;
     animation: gradientAnimation 10s ease infinite;
@@ -34,13 +34,6 @@
   .card:hover {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
     transform: translateY(-10px);
-  }
-  body {
-    cursor: url('cursor.png'), auto;
-  }
-  
-  .btn:hover {
-    cursor: pointer;
   }
     
   .nav-link {
@@ -63,8 +56,9 @@
   font-size:25px;
   color:black;
   }
-  .image{
-  width:100px;
+  .images{
+  width:120px;
+  border-radius: 20px;
   }
   .dropdown-item{
   font-family: "joly-text", sans-serif;
@@ -87,12 +81,7 @@
   html {
     scroll-behavior: smooth;
   }
-  header {
-    background-image: url('your-image.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-  }
+
   .btn-primary {
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
@@ -117,4 +106,42 @@
     transform: scale(1.05);
     filter: brightness(85%);
   }
-  
+    .image{
+      width:100%;
+      height:90vh;
+      background-position: center;
+      background-size: cover;
+      background-image: url(bas.jpg);
+    }
+    .image-overlay{
+      width:100%;
+      height:90vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      color:black;
+      background-color:rgba(243, 219, 228, 0.5);
+    }
+   /* Change color of active navbar link */
+.navbar .nav-link.active {
+  color: #db32cd; /* Your desired color */
+  background-color: transparent; /* Keeps background color transparent (if needed) */
+  font-size:22px;
+}
+
+/* Optionally: Change color of inactive links */
+.navbar .nav-link {
+  color: #db34b2; /* Set a color for inactive links */
+  font-size:22px;
+
+}
+
+/* Hover effect for links */
+.navbar .nav-link:hover {
+  color: #1b151b; /* Color when hovering over the links */
+  font-size:22px;
+
+}
+.container-fluid{
+  background-color:rgb(255, 214, 238);
+}
